@@ -1,0 +1,53 @@
+$color-green: rgb(63, 119, 104);
+$color-teal: rgb(68, 138, 138);
+$color-pink: papayawhip;
+
+$header-font: 'Advent Pro', sans-serif;
+
+h1, h2, h3, h4{
+    font-family: $header-font;
+}
+
+.navbar, footer {
+    background-color: $color-teal;
+    color: white;
+}
+
+.card {
+    background-color: $color-green;
+    color: white;
+}
+
+body {
+    background-image: url(coffee.jpg);
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#aurthorAccordion, #subscribe, .card-link {
+    background-color: $color-teal;
+    color: white;
+    border: solid, 5px;
+    border-color: $color-pink;
+}
+
+a, .btn-link {
+    color: white;
+}
+
+.zoom {
+   transition: transform .2s; /* Animation */
+
+    margin: 5 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .modal-header {
+      background-color: $color-teal
+  }
